@@ -29,7 +29,7 @@ int main()
 	//ImGui::StyleColorsClassic();
 
 	// Setup Platform/Renderer bindings
-	ImGui_ImplGlfw_InitForOpenGL( window, true );
+	ImGui_ImplGlfw_InitForOpenGL( window, false );
 	ImGui_ImplOpenGL2_Init();
 
 	while ( !glfwWindowShouldClose( window ) ) {
